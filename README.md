@@ -65,7 +65,7 @@ The std::io module handles the Read and Write inputs from the keyboard.
 # Useful Websites
 
 - [Rand Documentation](https://docs.rs/rand/latest/rand/index.html)
-- [RustDocumentation](https://rust-lang.org/)
+- [Rust Documentation](https://rust-lang.org/)
 - [YouTube: Rust Programming Full Course](https://www.youtube.com/watch?v=rQ_J9WH6CGk&t=4219s)
 
 # Future Work
