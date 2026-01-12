@@ -1,12 +1,13 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
 Rust is becoming a relevant programming language especially nowadays since there is a demand for performance and security. 
 Learning this programming language and mastering its complexities is an essential skill so we can become relevant in the current job market. 
 
-{Provide a description of the software that you wrote to demonstrate the Rust language.}
 This program is a game written in Rust that works through the command line.
-The game allows the user to choose two game modalities. 1. the user guesses the number generated randomly by the computer. 2. The machine has to guess the user's number.
+The game allows the user to choose two game modalities. 
+1. the user guesses the number generated randomly by the computer. 
+2. The machine has to guess the user's number.
+
 The following code stores the user input in the game_mode variable. The io::stdin handles the user input. The read_line command will read the input.
 The expect command will trigger an error message if the reading input fails.
 ```
@@ -39,23 +40,17 @@ let user_input: u32 = match user_input.trim().parse() {
 };
 ```
 
-{Describe your purpose for writing this software.}
 The purpose for writing this program is to internalize and put into practice Rust's specifics unique features such as 
 Ownership Model and Borrow Checker, variables default immutability, and error handling.
 
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
 For this program, I have mainly used Rustrover by Jetbrains https://www.jetbrains.com/rust/
 Rustrover is a great IDE for dealing with Rust programming features.
 
-
-{Describe the programming language that you used and any libraries.}
 As a programming language I have used Rust. Rust is a system programming language like C and C++.
 It uses a compiler which translates what we write into machine code. It provides the perfect balance in speed, security, portability, 
 and concurrency; therefore, it is not surprising that 80% of programmers would use Rust again (stats provided by Stack Overflow). 
@@ -69,15 +64,11 @@ The std::io module handles the Read and Write inputs from the keyboard.
  
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
 - [Rand Documentation](http://url.link.ghttps://docs.rs/rand/latest/rand/index.html)
 - [RustDocumentation](https://rust-lang.org/)
 - [YouTube: Rust Programming Full Course](http://url.link.goes.herehttps://www.youtube.com/watch?v=rQ_J9WH6CGk&t=4219s)
 
 # Future Work
-
-{Make a list of things that you need to fix, improve, and add in the future.}
 
 - Implement a user interface.
 - Advanced game mechanics
